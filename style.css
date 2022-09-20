@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+background: rgb(0,104,115);
+background: linear-gradient(90deg, rgba(0,104,115,1) 0%, rgba(122,228,242,1) 61%, rgba(0,236,202,1) 100%);
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+background: #5D5DCF;
+background: radial-gradient(circle farthest-corner at center center, #5D5DCF 5%, #CF0023 69%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30pt;
+  margin-bottom: -10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
